@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project Evaluation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+        color: #2c3e50;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      th {
+        background-color: #3498db;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+      tr:nth-child(even) {
+        background-color: #f8f8f8;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      .total-row {
+        font-weight: bold;
+        background-color: #ecf0f1;
+      }
+      .student-info {
+        background-color: white;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 20px;
+      }
+      .feedback {
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 600px) {
+        table {
+          font-size: 14px;
+        }
+        th,
+        td {
+          padding: 8px 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>S&W Capstone Project Evaluation</h1>
+
+    <div class="student-info">
+      <h2>Student Information</h2>
+      <p><strong>Name:</strong> <span id="student-name">{StudentName}</span></p>
+      <p>
+        <strong>Email:</strong>
+        <span id="student-email">johndoe@example.com</span>
+      </p>
+      <p>
+        <strong>Mentor:</strong> <span id="student-name">{MentorName}</span>
+      </p>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Criteria</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML Structure</td>
+          <td>{HTMLSCORE}</td>
+        </tr>
+        <tr>
+          <td>CSS Design</td>
+          <td>{CSSSCORE}</td>
+        </tr>
+        <tr>
+          <td>Responsiveness & Mobile Optimization</td>
+          <td>{Responsiveness&MobileOptimizationLSCORE}</td>
+        </tr>
+
+        <tr>
+          <td>Visual & Functional Design</td>
+          <td>{Visual&FunctionalDesignSCORE}</td>
+        </tr>
+        <tr>
+          <td>Testing & Debugging</td>
+          <td>{Testing&DebuggingSCORE}</td>
+        </tr>
+        <tr class="total-row">
+          <td>Total</td>
+          <td>{TOTALSCORE}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="feedback">
+      <h3>Feedback</h3>
+      <p>{FeedbackInputOfStudent}</p>
+    </div>
+
+    <div class="thank-you">
+      <h3 style="text-align: left; font-size: 1.3rem">Thank You</h3>
+      <p>
+        Thank you for using our Capstone Evaluation system. We appreciate your
+        hard work and dedication throughout this project. If you have any
+        questions about your evaluation, please don't hesitate to reach out to
+        your instructor or advisor.
+      </p>
+    </div>
+  </body>
+</html>

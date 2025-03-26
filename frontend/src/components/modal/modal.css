@@ -1,0 +1,54 @@
+.modalContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2000;
+    backdrop-filter: blur(15px);
+}
+
+.modalContentContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: fit-content;
+    width: 50vw;
+    background-color: rgba(20, 20, 20, 0.6);
+  border: 1px solid rgba(244, 244, 244, 0.607);
+    
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.closeButton {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  .closeButton:hover {
+    color: #ff4d4d;
+    transform: scale(1.1);
+  }
+  
+  .closeButton:focus {
+    outline: none;
+  }
+
+  .firstCardModal{
+      height: 100%;
+      width: 25%;
+      border-radius: 10px;
+      padding: 1rem 2rem;
+      color: white;
+  }

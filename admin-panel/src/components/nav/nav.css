@@ -1,0 +1,68 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #1f2937;
+}
+
+.menu {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 17%; */
+    gap: 1rem;
+    font-size: larger;
+    height: 80%;
+}
+
+.menu button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+}
+
+.logo {
+    padding: 0 0 0 40px;
+    font-size: x-large;
+}
+
+
+  
+.mentors_list {
+    padding-right: 10px;
+    /* width: 23%; */
+}  
+
+  select {
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db; 
+    color: #1f2937; 
+    font-size: 0.875rem; 
+    border-radius: 0.5rem; 
+    padding: 0.625rem; 
+    width: 100%;
+   
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #3b82f6; 
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); 
+  }
+  
+  .active {
+    
+    border: 2px solid;
+    border-color: #81afe1;
+  }
+  #mentors{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }

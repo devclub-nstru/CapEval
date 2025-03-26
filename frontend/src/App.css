@@ -1,0 +1,53 @@
+.screen-warning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #1a1a2e; /* Dark background */
+    color: #ffffff; /* White text */
+    font-size: 1.8rem; /* Slightly larger font size */
+    padding: 2rem;
+    gap: 1rem; /* Space between text and icon */
+}
+
+.screen-warning p {
+    max-width: 600px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #eaeaea; /* Softer white text */
+}
+
+.screen-warning .icon {
+    font-size: 5rem; /* Icon size */
+    color: #ff4c4c; /* Red for warning */
+    animation: pulse 1.5s infinite; /* Pulsing effect */
+}
+
+/* Pulsing animation for icon */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.screen-warning button {
+    padding: 0.8rem 1.5rem;
+    background-color: #6C3EDA; /* Primary button color */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.screen-warning button:hover {
+    background-color: #A589F1; /* Lighter purple on hover */
+    transform: scale(1.05); /* Slightly enlarges button */
+}

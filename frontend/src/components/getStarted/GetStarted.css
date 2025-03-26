@@ -1,0 +1,48 @@
+.modalHeader{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.modalSubHeader{
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 12px;
+}
+
+.modalSubHeader a{
+    color: #A589F1;
+    padding-left: 0.5em;
+}
+
+.modalFormContainer{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    height: 80%;
+}
+
+.modalFormContainer input, select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-bottom: 1.5rem;
+}
+
+.modalFormContainer .modalSubmitButton{
+    background-color: #6C3EDA;
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 10px;;
+    color: white;
+    font-weight: bold;
+}
+
