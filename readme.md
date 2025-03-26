@@ -1,6 +1,6 @@
 ### 1. Architectural Overview 🌐
 
-The CapEval platform will follow a three-tier architecture, aligning with the goals and objectives outlined in the PRD.md document:
+The CapEval platform will follow a three-tier architecture, aligning with the goals and objectives outlined in the [PRD.md](https://github.com/devclub-nstru/CapEval/edit/main/PRD.md) document:
 
 - **Frontend (Presentation Tier):** 🎨
   - **Purpose:** As defined in the PRD, the frontend will focus on providing an intuitive interface for students and faculty to interact with the platform. This includes assignment submission, evaluation viewing, and query resolution.
