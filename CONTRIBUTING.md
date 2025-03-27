@@ -4,7 +4,7 @@
 CapEval is an open-source platform designed to streamline assignment evaluation and feedback processes. Contributors play a key role in improving its functionality and ensuring a seamless experience for students and faculty.
 
 ## Tech Stack
-- **Frontend:** React, Next.js
+- **Frontend:** React.js
 - **Backend:** Node.js, Express
 - **Database:** MongoDB
 - **Admin Panel:** Next.js
