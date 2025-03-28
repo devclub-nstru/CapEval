@@ -104,3 +104,10 @@ RBAC is crucial for ensuring that users have appropriate access levels based on 
 - **Microservices Architecture:**
   - Consider breaking down the backend into microservices for improved scalability and maintainability.
   - Each microservice can be responsible for a specific function, such as user authentication, test management, or AI-based evaluation.
+
+## 📝 Issue Proposal Guidelines
+⚠️ **Important:**  
+All issue proposals must be submitted through the **DCODE Panel**.  
+🔗 **[Submit Proposal Here](https://dcode.codes/proposal)**  
+
+This ensures that all ideas and improvements are tracked and evaluated efficiently.  
