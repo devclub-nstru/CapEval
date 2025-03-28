@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-In college, submitting and evaluating assignments or projects can be cumbersome for both students and faculty. Moreover, addressing student queries often requires synchronous communication, which is not always feasible. **CapEval** streamlines the assignment lifecycle — from creation and submission to evaluation — while offering an intuitive interface for query resolution. This platform reduces real-time interaction, enabling both parties to engage at their convenience.
+In college, submitting and evaluating projects can be cumbersome for both students and faculty. Moreover, addressing student queries often requires synchronous communication, which is not always feasible. **CapEval** streamlines the assignment lifecycle — from creation and submission to evaluation — while offering an intuitive interface for query resolution. This platform reduces real-time interaction, enabling both parties to engage at their convenience.
 
 ---
 
@@ -10,14 +10,14 @@ In college, submitting and evaluating assignments or projects can be cumbersome 
 
 ### Primary Goal
 
-To develop a streamlined digital platform that optimizes the assignment lifecycle and enhances communication between students and faculty.
+To develop a streamlined digital platform that optimizes the assignment lifecycle.
 
 ### Objectives
 
 - **Assignment Management**
 
   - Enable easy creation and distribution of assignments/projects.
-  - Allow structured submission with deadlines and version control.
+  - Allow structured submission with deadlines.
 
 - **Evaluation & Feedback**
 
@@ -114,7 +114,7 @@ To develop a streamlined digital platform that optimizes the assignment lifecycl
 | 1   | Login Modal        | Guest login option; restricted assignment view without login; submission requires login. | High     | User, Mentor, and Super Admin levels.   |
 | 2   | Home Page          | Lists of ongoing, submitted, pending, and missed assignments.                            | High     | User-specific home page.                |
 | 3   | Submission Modal   | Pre-filled user details, with mentor name selection required.                            | High     | Simple, intuitive UI.                   |
-| 4   | Leaderboard        | Subject-wise rankings with an opt-out option by mentors.                                 | Medium   | Leaderboard visibility is configurable. |
+| 4   | Leaderboard        | Subject-wise rankings with an opt-out option for students and mentors.                   | Medium   | Leaderboard visibility is configurable. |
 | 5   | Query Button       | Modal for query submission with textarea and file attachment.                            | High     | Queries stored and listed for review.   |
 | 6   | Query Section      | Displays all queries with mentor responses.                                              | High     | Organized query listing.                |
 | 7   | Mentor Admin Panel | Create, manage, and evaluate assignments.                                                | High     | Dashboard with query and student views. |
@@ -133,7 +133,6 @@ To develop a streamlined digital platform that optimizes the assignment lifecycl
 | -------------------------------------------------- | ----------------------------------------------------------------- |
 | Can a student submit without login?                | No, submissions require login for tracking and assignment status. |
 | Will faculty see assignment submissions instantly? | Yes, all submissions are updated in real-time.                    |
-| Can mentors opt-out of the leaderboard feature?    | Yes, mentors can exclude assignments from leaderboard rankings.   |
 | How are student queries tracked?                   | All queries are listed in the query section for mentor review.    |
 
 ---
