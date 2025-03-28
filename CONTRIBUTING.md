@@ -3,6 +3,13 @@
 ## About CapEval
 CapEval is an open-source platform designed to streamline assignment evaluation and feedback processes. Contributors play a key role in improving its functionality and ensuring a seamless experience for students and faculty.
 
+## 📝 Issue Proposal Guidelines
+⚠️ **Important:**  
+All issue proposals must be submitted through the **DCODE Panel**.  
+🔗 **[Submit Proposal Here](https://dcode.codes/proposal)**  
+
+This ensures that all ideas and improvements are tracked and evaluated efficiently.  
+
 ## Tech Stack
 - **Frontend:** React.js
 - **Backend:** Node.js, Express
