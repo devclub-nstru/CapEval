@@ -100,3 +100,7 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 ## Future Development
 For more details on future improvements and upcoming features, refer to the [Product Requirements Document](./PRD.md).
 
+
+For questions or support, reach out at:  
+ 📩 **softwaredevg.club@rishihood.edu.in**  
+ 🌐 **[DCODE Official Website](https://dcode.codes)**
