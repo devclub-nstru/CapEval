@@ -94,12 +94,15 @@ CapEval/
 └── README.md       # Documentation
 ```
 
-## Contributing
-Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
-
 ## Future Development
 For more details on future improvements and upcoming features, refer to the [Product Requirements Document](./PRD.md).
 
+## Issue Proposal Guidelines
+⚠️ **Important:**  
+All issue proposals must be submitted through the **DCODE Panel**.  
+🔗 **[Submit Proposal Here](https://dcode.codes/proposal)**  
+
+This ensures that all ideas and improvements are tracked and evaluated efficiently.  
 
 For questions or support, reach out at:  
  📩 **softwaredevg.club@rishihood.edu.in**  
