@@ -98,5 +98,5 @@ CapEval/
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
 
 ## Future Development
-For more details on future improvements and upcoming features, refer to the [Product Requirements Document](./prd.md).
+For more details on future improvements and upcoming features, refer to the [Product Requirements Document](./PRD.md).
 
