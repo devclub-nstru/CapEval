@@ -1,145 +1,115 @@
-# CapEval
+# Product Requirements Document (PRD)
 
-## 🚀 Overview
+## Project Name: CapEval
 
-In college, submitting and evaluating projects can be cumbersome for both students and faculty. Moreover, addressing student queries often requires synchronous communication, which is not always feasible. **CapEval** streamlines the assignment lifecycle — from creation and submission to evaluation — while offering an intuitive interface for query resolution. This platform reduces real-time interaction, enabling both parties to engage at their convenience.
+**Version:** 1.0
 
----
+## Introduction
 
-## 🎯 Goals
+CapEval is a digital platform designed to streamline the assignment lifecycle in academic institutions. It simplifies assignment creation, submission, evaluation, and query resolution, reducing real-time dependencies and enhancing efficiency for both students and faculty. By offering an intuitive interface and structured workflow, CapEval ensures seamless academic engagement with minimal disruption.
 
-### Primary Goal
+## Objectives
 
-To develop a streamlined digital platform that optimizes the assignment lifecycle.
+### 1. Assignment Management
+- Enable easy creation and distribution of assignments and projects.
+- Allow structured submission with defined deadlines.
 
-### Objectives
+### 2. Evaluation & Feedback
+- Provide an intuitive interface for faculty to review and grade assignments.
+- Support detailed feedback and automated grading where applicable.
 
-- **Assignment Management**
+### 3. Query Resolution
+- Implement a structured system for students to submit queries.
+- Allow faculty to respond asynchronously, reducing reliance on real-time interactions.
 
-  - Enable easy creation and distribution of assignments/projects.
-  - Allow structured submission with deadlines.
+### 4. Time Efficiency & Flexibility
+- Minimize the need for real-time faculty-student interactions while ensuring smooth academic communication.
+- Enable students and faculty to engage with the platform at their convenience.
 
-- **Evaluation & Feedback**
+### 5. Enhanced Tracking & Transparency
+- Provide students with real-time updates on assignment status.
+- Offer faculty insights into pending evaluations and student progress.
 
-  - Provide an intuitive interface for mentors to review and grade assignments.
-  - Enable detailed feedback and automate grading where applicable.
-
-- **Query Resolution**
-
-  - Implement a structured system for students to ask doubts.
-  - Allow faculty to respond at their convenience, reducing dependency on synchronous interaction.
-
-- **Time Efficiency & Flexibility**
-
-  - Minimize real-time interactions while ensuring smooth academic communication.
-  - Allow both students and faculty to engage with the platform at their preferred time.
-
-- **Enhanced Tracking & Transparency**
-  - Provide students with real-time updates on their assignment status.
-  - Offer faculty insights into pending evaluations and student progress.
-
----
-
-## 📈 Success Metrics
+## Success Metrics
 
 ### User Adoption & Engagement
-
-- **Student Adoption Rate:** Percentage of students actively using the platform for assignment submissions.
+- **Student Adoption Rate:** Percentage of students using the platform for assignment submissions.
 - **Faculty Adoption Rate:** Percentage of faculty using the platform for assignment creation and evaluation.
-- **Daily/Weekly Active Users (DAU/WAU):** Number of users engaging with the platform regularly.
+- **Daily/Weekly Active Users (DAU/WAU):** Number of users actively engaging with the platform.
 
 ### Assignment Workflow Efficiency
-
 - **Reduction in Submission Delays:** Percentage decrease in late submissions.
 - **Average Assignment Review Time:** Time taken by faculty to evaluate assignments before and after platform implementation.
 - **Query Resolution Time:** Average time taken to address student queries.
 
 ### Communication & Accessibility
-
-- **Decrease in In-Person Queries:** Percentage reduction in direct faculty-student interaction.
-- **Response Time of Faculty:** Average time taken by mentors to answer student queries.
+- **Decrease in In-Person Queries:** Reduction in direct faculty-student interactions.
+- **Response Time of Faculty:** Average time taken to answer student queries.
 
 ### System Performance & Reliability
-
-- **Uptime:** Ensuring 99% platform availability.
+- **Uptime:** Ensure 99% platform availability.
 - **Load Time:** Optimal page load times under 2 seconds.
 
 ### Academic Impact
-
-- **Improvement in Assignment Scores:** Percentage increase in student scores.
+- **Improvement in Assignment Scores:** Percentage increase in student scores post-implementation.
 - **Student Satisfaction Score:** Feedback on ease of use and effectiveness.
-- **Faculty Satisfaction Score:** Feedback from faculty on time savings and improved evaluation.
+- **Faculty Satisfaction Score:** Feedback on time savings and improved evaluation process.
 
----
-
-## 🔗 Assumptions and Dependencies
+## Assumptions and Dependencies
 
 ### Assumptions
-
-- Users (students & faculty) will actively engage with the platform.
-- Faculty will transition from manual to digital grading.
+- Students and faculty will actively engage with the platform.
+- Faculty will transition from manual grading to digital evaluation.
 - Students will prefer online query resolution over in-person interaction.
-- Stable internet access will be available.
-- Institutions will support platform adoption.
-- User training will be minimal due to an intuitive interface.
+- Stable internet access will be available for users.
+- Institutions will support and promote platform adoption.
+- Minimal user training will be required due to an intuitive interface.
 - Data privacy and security compliance will be ensured.
 
 ### Dependencies
-
 - **Institutional Adoption:** Universities must integrate the platform into their academic workflow.
-- **LMS Integration:** Seamless integration with existing LMS platforms like Moodle, Blackboard, and Google Classroom.
-- **Faculty & Student Willingness:** Platform success depends on user adoption.
-- **Technical Infrastructure:** Hosting, database management, and security protocols.
-- **Support & Maintenance:** Ongoing updates, bug fixes, and support.
+- **LMS Integration:** Compatibility with Moodle, Blackboard, and Google Classroom.
+- **User Willingness:** Platform success depends on adoption by faculty and students.
+- **Technical Infrastructure:** Reliable hosting, database management, and security protocols.
+- **Support & Maintenance:** Ongoing updates, bug fixes, and technical support.
 - **Compliance:** Adherence to educational regulations and data protection laws.
-- **Third-Party Tools & APIs:** AI-based grading, plagiarism detection, and cloud storage.
-- **Budget & Funding:** Resources to ensure development, deployment, and maintenance.
+- **Third-Party Tools & APIs:** Integration with AI-based grading, plagiarism detection, and cloud storage.
+- **Budget & Funding:** Resources for development, deployment, and maintenance.
 
----
-
-## 📚 Requirements
+## Requirements
 
 ### User Roles
-
-- **Student Login:** For normal users submitting assignments.
-- **Mentor Login:** For reviewing and grading assignments.
+- **Student Login:** Submit assignments and track status.
+- **Mentor Login:** Review, grade assignments, and answer queries.
 - **Super Admin:** CRUD access for user and mentor management.
-
----
 
 ### Feature Requirements
 
-| #   | Title              | Acceptance Criteria                                                                      | Priority | Notes                                   |
-| --- | ------------------ | ---------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| 1   | Login Modal        | Guest login option; restricted assignment view without login; submission requires login. | High     | User, Mentor, and Super Admin levels.   |
-| 2   | Home Page          | Lists of ongoing, submitted, pending, and missed assignments.                            | High     | User-specific home page.                |
-| 3   | Submission Modal   | Pre-filled user details, with mentor name selection required.                            | High     | Simple, intuitive UI.                   |
-| 4   | Leaderboard        | Subject-wise rankings with an opt-out option for students and mentors.                   | Medium   | Leaderboard visibility is configurable. |
-| 5   | Query Button       | Modal for query submission with textarea and file attachment.                            | High     | Queries stored and listed for review.   |
-| 6   | Query Section      | Displays all queries with mentor responses.                                              | High     | Organized query listing.                |
-| 7   | Mentor Admin Panel | Create, manage, and evaluate assignments.                                                | High     | Dashboard with query and student views. |
+| #  | Title                 | Acceptance Criteria                                                       | Priority | Notes |
+|----|-----------------------|---------------------------------------------------------------------------|----------|-------|
+| 1  | Login System          | Guest login with restricted access; full functionality requires authentication. | High     | User, Mentor, and Super Admin levels. |
+| 2  | Dashboard             | Lists of ongoing, submitted, pending, and missed assignments.             | High     | Personalized user dashboard. |
+| 3  | Assignment Submission | Pre-filled user details; mentor selection required.                      | High     | Simple, intuitive UI. |
+| 4  | Leaderboard           | Subject-wise rankings with an opt-out option for students and mentors.    | Medium   | Configurable visibility settings. |
+| 5  | Query Submission      | Modal for query submission with text input and file attachment.           | High     | Queries stored and listed for review. |
+| 6  | Query Management      | Displays all queries with mentor responses.                               | High     | Structured listing for easy access. |
+| 7  | Mentor Panel          | Dashboard to manage and evaluate assignments.                            | High     | Includes query and student insights. |
 
----
+## FAQs
 
-## 🎨 UX Mocks
+| Question | Answer |
+|----------|--------|
+| Can a student submit without login? | No, login is required for tracking and status updates. |
+| Will faculty see assignment submissions instantly? | Yes, all submissions update in real-time. |
+| How are student queries tracked? | Queries are stored in a structured section for mentor review. |
 
-> _To be added in the subsequent development phase._
-
----
-
-## ❓ FAQs
-
-| Question                                           | Outcome                                                           |
-| -------------------------------------------------- | ----------------------------------------------------------------- |
-| Can a student submit without login?                | No, submissions require login for tracking and assignment status. |
-| Will faculty see assignment submissions instantly? | Yes, all submissions are updated in real-time.                    |
-| How are student queries tracked?                   | All queries are listed in the query section for mentor review.    |
-
----
-
-## 🚫 Out of Scope
-
-- **Integration with Multiple LMS Platforms:** Future versions will consider LMS integration.
+## Out of Scope
+- **LMS Integration:** Future versions will support integration with multiple LMS platforms.
 - **AI-Based Grading & Plagiarism Detection:** Not included in the initial phase.
-- **Offline Functionality:** The platform will require internet connectivity.
-- **Scalability Beyond Initial User Base:** Initial support is for limited institutions before scaling.
+- **Offline Functionality:** Internet connectivity is required.
+- **Enterprise-Level Scalability:** Initial support is limited to selected institutions.
+
+## Future Considerations
+- **Cloud Storage:** Enable persistent storage for assignments and evaluations.
+- **Advanced AI Features:** AI-based grading and plagiarism detection.
+- **Enterprise Features:** Team workspaces, user roles, and private project management.
